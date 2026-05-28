@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chef AI - Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="sfondo">
+  <header>
+    <h1 class="titolo">Chef Locatelli AI</h1>
+  </header>
+  <main class="contenitore">
+    <section class="colonna1">
+      <div class="chat-layout">
+        <div id="chat" aria-live="polite">
+          <!-- Messaggi saranno inseriti qui -->
+        </div>
+        <img src="../img/image.png" alt="Chef AI" class="logo-immagine" />
+      </div>
+      <div class="input-area">
+        <input id="domandaInput" type="text" placeholder="Scrivi nella chat per interagire..." />
+        <button id="btnInserisci" type="button">Invia</button>
+      </div>
+      <div id="status" class="status"></div>
+    </section>
+  </main>
+  <footer>
+    <h3>© 2026 - ITIS Carlo Zuccante - tutti i diritti riservati</h3>
+  </footer>
+  <script src="marked.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
